@@ -7,5 +7,6 @@ df = pd.read_csv("table1.csv")
 #df.insert(2, "Random", [random.randint(0,1) for i in range(0,len(df))])
 tdf = df.T
 print(tdf.head())
+print(df)
 
 df.to_csv("table1.csv",index=False)
